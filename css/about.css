@@ -1,0 +1,27 @@
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 10rem;
+}
+  
+.skill-text {
+    margin-bottom: 1rem;
+}
+  
+.skills-wrapper img {
+    padding: 1.25rem;
+}
+.icon {
+    width: 11.875rem;
+    height: 11.25rem;
+}
+.share{
+    position: absolute;
+    bottom: 10px;
+    width: 50%;
+     
+}
+.home p{
+    align-items: flex-start;
+}
