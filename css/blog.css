@@ -1,0 +1,7 @@
+main{
+    overflow-y: scroll;
+}
+.constr h1{
+    text-align: center;
+    margin-top: 400px;
+}

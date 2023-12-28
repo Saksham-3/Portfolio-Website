@@ -20,6 +20,7 @@ body{
     background: var(--bg-color);
     color: var(--text-color);
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 header{
     position: fixed;
@@ -78,9 +79,8 @@ header{
     z-index: 6;
 }
 section{
-    padding: 0 15%;
+    padding: 0 10%;
     box-sizing: border-box;
-
 }
 .home{
     position: relative;
@@ -149,8 +149,8 @@ section{
 }
 .share{
     position: absolute;
-    bottom: 3rem;
-    left: 15%;
+    bottom: 1%;
+    left: 10%;
     display: flex;
     align-items: center;
 }   

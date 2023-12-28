@@ -2,9 +2,8 @@
     max-width: 68.75rem;
     margin: auto;
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 9rem;
 }
-  
 .skill-text {
     margin-bottom: 1rem;
 }
@@ -13,15 +12,32 @@
     padding: 1.25rem;
 }
 .icon {
-    width: 11.875rem;
-    height: 11.25rem;
-}
-.share{
-    position: absolute;
-    bottom: 10px;
-    width: 50%;
-     
+    width: 9.875rem;
+    height: 9.25rem;
 }
 .home p{
     align-items: flex-start;
+}
+.project-container {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.project-container p {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+
+}
+.project-btn {
+    background-color: #303030;
+    width: 200%;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    transition: transform 0.3s ease;
+}
+.project-info h3{
+    margin-left: 10px;
 }
