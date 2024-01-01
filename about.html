@@ -1,37 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="shortcut icon" type="x-icon" href="scope.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/about.css" />
 
-    <!--icons script-->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-    />
-    <!--font script-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <a href="index.html" class="logo" style="text-decoration: none"
-        ><span>S</span>cope</a
-      >
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" type="x-icon" href="scope.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/about.css" />
 
+  <!--icons script-->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+  <!--font script-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="logo" style="text-decoration: none"><span>S</span>cope</a>
+    <div class="menu">
       <ul class="navbar">
         <li>
-          <a href="index.html" class="active" style="text-decoration: none"
-            >Home</a
-          >
+          <a href="index.html" class="active" style="text-decoration: none">Home</a>
         </li>
         <li>
           <a href="projects.html" style="text-decoration: none">Projects</a>
@@ -43,61 +35,47 @@
         <span>Menu</span>
         <div class="bx bx-menu" id="menu-icon"></div>
       </div>
-    </header>
-    </section>
-    <section class="skills" id="skills">
-      <div class="project-container">
-        <div class="project-btn">
-            <div class="project-info">
-                <h3>Portfolio Website</h3>
-            </div>
-        </div>
-</div>
-      <h2 class="skill-text">My Top Skills</h2>
-
-      <div class="skills-wrapper">
-        <div class="skills-img">
-          <img
-            src="img/python.png"
-            alt="Python Logo"
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="img/html5.png"
-            alt="HTML5 Logo"
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="img/css.png"
-            alt="CSS Logo"
-            loading="lazy"
-            class="icon icon-card"
-          />
-        </div>
-
-        <div class="skills-img">
-          <img
-            src="img/js.png"
-            alt="JS Logo"
-            loading="lazy"
-            class="icon icon-card"
-          />
-        </div>
-      </div>
-      
-    </section>
-    <div class="share">
-      <p>Find Me On:</p>
-      <div class="social">
-        <a href="#"><i class="bx bxl-gmail" style="color: #7e38b7"></i></a>
-        <a href="#"
-          ><i class="bx bxl-linkedin-square" style="color: #7e38b7"></i
-        ></a>
-        <a href="#"><i class="bx bxl-github" style="color: #7e38b7"></i></a>
-        <a href="#"><i class="bx bxl-instagram" style="color: #7e38b7"></i></a>
-      </div>
     </div>
-  </body>
+  </header>
+  <section class="home">
+    </div>
+    <div class="skills">
+      <div class="project-container">
+        <div><img src="img/pfp.jpg" alt="avatar" class="avatar" height="250px"></div>
+        <div class="project-btn">
+          <h1 class="skill-text">About Me</h1>
+          <p>Hello! My name is Saksham Kohli. I am a Computer Science student specializing in Computer Security. For as long as I can remember, I have been questioning and learning about technology. 
+            This deep rooted trait was what led me to pursue software development. Now, my passion lies in programming and developing solutions to real world problems with code. 
+            As a student, I have been challenged with countless situations that required collaboraiton, communication, and knowledege. These experiences immensely
+            helped to solidify my drive for learning and honed my skills. I'm constantly seeking out new opportunities and I look forward to being able to apply myself in the workplace.   </p>
+          <div class="divider"></div>
+        </div>
+        <div class="project-skills">
+          <h1 class="skill-text">My Top Skills</h1>
+          <div class="skills-wrapper">
+            <div class="skills-img">
+              <img src="img/python.png" alt="Python Logo" loading="lazy" class="icon icon-card" />
+              <img src="img/html5.png" alt="HTML5 Logo" loading="lazy" class="icon icon-card" />
+              <img src="img/css.png" alt="CSS Logo" loading="lazy" class="icon icon-card" />
+              <img src="img/js.png" alt="JS Logo" loading="lazy" class="icon icon-card" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="share">
+        <div class="social">
+          <p>Find Me On:
+            <a href="mailto:sakshamkohli6@gmail.com"><i class="bx bxl-gmail" style="color: #2966ab"></i></a>
+            <a href="https://www.linkedin.com/in/saksham-kohli-350b76295/" target="_blank"><i
+                class="bx bxl-linkedin-square" style="color: #2966ab"></i></a>
+            <a href="https://github.com/Saksham-3" target="_blank"><i class="bx bxl-github"
+                style="color: #2966ab"></i></a>
+            <a href="https://www.instagram.com/skohli99/" target="_blank"><i class="bx bxl-instagram"
+                style="color: #2966ab"></i></a>
+        </div>
+      </div>
+  </section>
+
+</body>
+
 </html>

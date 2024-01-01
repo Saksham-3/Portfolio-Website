@@ -1,51 +1,91 @@
-body{
-  overflow-y:scroll;
+body {
+  overflow-y: scroll;
 }
-section a{
+
+section a {
   text-decoration: none;
 }
-section h2{
-  margin-top: 100px;
+
+section h2 {
+  margin-top: auto;
   text-align: center;
-}
-.project-container {
-  padding-top: 40px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 20px;
 }
-.project-container p {
-  font-family: 'Lato', sans-serif;
-  color: #fff;
-  
-}
-.project-btn {
-  background-color: #7e38B7;
-  width: 950px;
-  height: 115px;
+
+.project-container {
+  align-items: center;
+  padding-top: 40px;
+  background-color: #dddaca ;
   border-radius: 10px;
-  display: flex;
-  transition: transform 0.3s ease;
+  width: 120%;
 }
-.project-btn:hover {
+.project-container:hover {
+  transition: all ease .45s;
   transform: scale(1.05);
 }
-.project-info {
-  margin-top: 18px;
-  margin-left: 10px;
+.project-container p {
+  font-size: var(--p-font);
+  font-family: var(--font-family);
+  color: #fff;
+
 }
-.project-info h1{
-  font-family: 'Archivo', sans-serif; 
+
+.project-btn {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.project-btn:hover {
+  transition: all ease .45s;
+  transform: scale(1.05);
+}
+
+.project-info a {
+  color: #2966ab;
+
+  text-decoration: none;
+}
+
+.project-info a :visited {
+  text-decoration: none;
+  color: #2966ab;
+}
+
+.project-info h1 {
+  font-family: 'Archivo', sans-serif;
   font-size: 24px;
-  color: #F8F7FF;
+  color: #2966ab;
   margin: 0;
+
 }
+
 .project-desc {
   margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
+
 .project-desc p {
-  font-family: 'Lato', sans-serif;
-  color: #fff;
-  margin: auto;
+  font-size: var(--p-font);
+  font-family: var(--font-family);
+  color: grey;
+  line-height: 30px;
+}
+
+.projects {
+  align-items: center;
+  padding-top: 100px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  float: right;
+
+}
+
+.home h1 {
+  color: #2966ab;
+  font-size: 30px;
 }

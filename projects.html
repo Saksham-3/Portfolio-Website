@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
     <link rel="shortcut icon" type="x-icon" href="scope.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects</title>
@@ -20,85 +19,148 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <header>
       <a href="index.html" class="logo" style="text-decoration: none"
         ><span>S</span>cope</a
       >
-
-      <ul class="navbar">
-        <li>
-          <a href="index.html" class="active" style="text-decoration: none"
-            >Home</a
-          >
-        </li>
-        <li>
-          <a href="projects.html" style="text-decoration: none">Projects</a>
-        </li>
-        <li><a href="about.html" style="text-decoration: none">About</a></li>
-        <li><a href="blog.html" style="text-decoration: none">Blog</a></li>
-      </ul>
-
-      <div class="menu-btn">
-        <span>Menu</span>
-        <div class="bx bx-menu" id="menu-icon"></div>
-      </div>
-
-    </header>
-    </section>
-    <section class="projects" id="projects">
-      <h2>Check out some of my projects!</h2>
-      <div class="project-container">
-        <a href="https://github.com/Saksham-3/Note-It" target="_blank" rel="noopener noreferrer">
-            <div class="project-btn">
-                <div class="project-info">
-                    <h1>Note-It!</h1>
-                    <div class="project-desc">
-                        <p>Python, HTML, CSS, Flask, SQLAlchemy, Git </p>
-                        <p>FullStack Web app with database storage of accounts, notes, blog posts. Uses REST and CRUD.</p>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </div>
-    <div class="project-container">
-      <a href="https://saksham-3.github.io/Portfolio-Website/index.html" target="_blank" rel="noopener noreferrer">
-          <div class="project-btn">
-              <div class="project-info">
-                  <h1>Portfolio Website</h1>
-                  <div class="project-desc">
-                      <p> HTML, CSS, JavaScript, Git </p>
-                      <p>Responsive portfolio website "Scope" with various pages and links. </p>
-                  </div>
-              </div>
-          </div>
-      </a>
-  </div>
-  <div class="project-container">
-    <a href="https://github.com/Saksham-3/TicTacToe" target="_blank" rel="noopener noreferrer">
-        <div class="project-btn">
-            <div class="project-info">
-                <h1>Tic-Tac-Toe!</h1>
-                <div class="project-desc">
-                    <p> Python, PyGame, Numpy, Git </p>
-                    <p>The classic Tic-Tac-Toe game with multi-player compatability and restart function.</p>
-                </div>
-            </div>
+      <div class="menu">
+        <ul class="navbar">
+          <li>
+            <a href="index.html" class="active" style="text-decoration: none"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="projects.html" style="text-decoration: none">Projects</a>
+          </li>
+          <li><a href="about.html" style="text-decoration: none">About</a></li>
+          <li><a href="blog.html" style="text-decoration: none">Blog</a></li>
+        </ul>
+        <div class="menu-btn">
+          <span>Menu</span>
+          <div class="bx bx-menu" id="menu-icon"></div>
         </div>
-    </a>
-</div>
-
-    <footer class="share">
-      <p>Find Me On:</p>
-      <div class="social">
-        <a href="#"><i class="bx bxl-gmail" style="color: #7e38b7"></i></a>
-        <a href="#"
-          ><i class="bx bxl-linkedin-square" style="color: #7e38b7"></i
-        ></a>
-        <a href="#"><i class="bx bxl-github" style="color: #7e38b7"></i></a>
-        <a href="#"><i class="bx bxl-instagram" style="color: #7e38b7"></i></a>
       </div>
-    </div>
-
-    </footer>
+    </header>
+    <section class="home">
+      <div>
+        <h1 class="projects">Check out some of my projects on GitHub!</h1>
+        <div class="project-container">
+          <div class="project-btn">
+            <div class="project-info">
+              <a
+                href="https://github.com/Saksham-3/Note-It"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h2>
+                  Note-It!<img
+                    src="img/icon.png"
+                    alt="avatar"
+                    class="avatar"
+                    height="50px"
+                  />
+                </h2>
+                <div class="project-desc">
+                  <p>Python, HTML, CSS, Flask, SQLAlchemy, Git</p>
+                  <p>
+                    FullStack Web app with database storage of accounts, notes,
+                    blog posts. Uses REST and CRUD.
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="project-container">
+          <div class="project-btn">
+            <div class="project-info">
+              <a
+                href="https://saksham-3.github.io/Portfolio-Website/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h2>
+                  Portfolio Website<img
+                    src="img/icon.png"
+                    alt="avatar"
+                    class="avatar"
+                    height="50px"
+                  />
+                </h2>
+                <div class="project-desc">
+                  <p>HTML, CSS, JavaScript, Git</p>
+                  <p>
+                    Responsive portfolio website "Scope" with various pages and
+                    links.
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="project-container">
+          <div class="project-btn">
+            <div class="project-info">
+              <a
+                href="https://github.com/Saksham-3/TicTacToe"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h2>
+                  Tic-Tac-Toe!<img
+                    src="img/icon.png"
+                    alt="avatar"
+                    class="avatar"
+                    height="50px"
+                  />
+                </h2>
+                <div class="project-desc">
+                  <p>Python, PyGame, Numpy, Git</p>
+                  <p>
+                    The classic Tic-Tac-Toe game with multi-player compatability
+                    and restart function.
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="project-container">
+          <div class="project-btn">
+            <div class="project-info">
+              <a
+                href="https://github.com/Saksham-3/TicTacToe"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h2>
+                  World Flags<img
+                    src="img/icon.png"
+                    alt="avatar"
+                    class="avatar"
+                    height="50px"
+                  />
+                </h2>
+                <div class="project-desc">
+                  <p>Python, Tkinter, REST API, Pillow, Git</p>
+                  <p>
+                    A flag guessing game with scoring, lives, and clues to help
+                    you better your Geography skills!
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+    </section>
+    <br />
+  </body>
 </html>
