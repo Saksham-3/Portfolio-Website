@@ -53,9 +53,8 @@
 }
 
 .avatar {
-    border-radius: 50%;
+    border-radius: 10%;
     margin: auto;
-    margin-top: 10%;
 }
 .share{
     position: relative;
