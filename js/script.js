@@ -6,11 +6,7 @@ menu.onclick= () => {
     navbar.classList.toggle('open')
 };
 
-const sr = ScrollReveal ({
-    distance: '10px',
-    duration: 2500,
-    reset: true
-});
+
 
 
 

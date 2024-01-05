@@ -15,7 +15,7 @@ section h2 {
 .project-container {
   align-items: center;
   padding-top: 40px;
-  background-color: #dddaca ;
+  background-color: #dddaca65;
   border-radius: 10px;
   width: 120%;
 }
@@ -70,11 +70,13 @@ section h2 {
   font-family: var(--font-family);
   color: grey;
   line-height: 30px;
+  padding-bottom: 1%;
 }
 
 .projects {
-  align-items: center;
-  padding-top: 100px;
+  padding-top: 10%;
+  margin-left: 15%;
+  white-space: nowrap;
 }
 
 .home {
@@ -88,4 +90,8 @@ section h2 {
 .home h1 {
   color: #2966ab;
   font-size: 30px;
+  
+}
+.divider {
+  width: 118%;
 }
