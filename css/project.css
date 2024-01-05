@@ -14,10 +14,10 @@ section h2 {
 
 .project-container {
   align-items: center;
-  padding-top: 40px;
+  padding-top: 25px;
+  padding-bottom: 10px;
   background-color: #dddaca65;
   border-radius: 10px;
-  width: 120%;
 }
 .project-container:hover {
   transition: all ease .45s;
@@ -75,8 +75,6 @@ section h2 {
 
 .projects {
   padding-top: 10%;
-  margin-left: 15%;
-  white-space: nowrap;
 }
 
 .home {
@@ -84,14 +82,11 @@ section h2 {
   flex-direction: column;
   text-align: center;
   float: right;
-
+  padding-bottom: 20px;
 }
 
 .home h1 {
   color: #2966ab;
   font-size: 30px;
-  
 }
-.divider {
-  width: 118%;
-}
+
