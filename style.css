@@ -10,11 +10,20 @@
 }
 
 :root {
-    --bg-color: #ffff;
+    /* --bg-color: #ffff;
     --snd-bg-color: #d5fdf9;
     --text-color: #000;
-    --main-color: #007f73;
+    --main-color: #007f73; */
 
+    /* --bg-color: #F9FAFB;
+    --snd-bg-color: #E5E7EB;
+    --text-color: #111827;
+    --main-color: #3B82F6; */
+
+    --bg-color: #F5F3FF;
+    --snd-bg-color: #d9d3f7;
+    --text-color: #1E1B4B;
+    --main-color: #6D28D9;
 }
 
 html {
