@@ -465,7 +465,7 @@ span {
 @media (max-width: 617px) {
     .home-img img {
         width: 70vw;
-        margin-top: -1rem;
+        margin-top: 5rem;
     }
     .home h3 {
         margin-top: 1rem;
