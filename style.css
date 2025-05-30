@@ -447,14 +447,14 @@ span {
         margin-left: 1rem;
     }
     .home-img img {
-        width: 70vw;
+        width: 80vw;
         margin-top: 3rem;
     }
     .about {
         flex-direction: column-reverse;
     }
     .about-img img{
-        width: 70vw;
+        width: 80vw;
         margin-top: 4rem;
     }
     .projects h2 {
@@ -464,14 +464,14 @@ span {
 
 @media (max-width: 617px) {
     .home-img img {
-        width: 70vw;
+        width: 80vw;
         margin-top: 5rem;
     }
     .home h3 {
         margin-top: 1rem;
     }
     .about-img img {
-        width: 70vw;
+        width: 80vw;
         margin-top: 2rem;
     }
 }
