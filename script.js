@@ -24,7 +24,7 @@ document.addEventListener('click', (e) => {
 
 // typing effect
 const typed = new Typed('.multiple-text', {
-    strings: ['Full-stack Developer', 'Mobile Developer', 'Software Developer','Student'],
+    strings: ['Full-stack Developer', 'Mobile Developer','Student'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1200,
